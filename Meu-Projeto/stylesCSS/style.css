@@ -1,6 +1,10 @@
 /*Font-text*/
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     font-family: Inria Sans;
     overflow-x: hidden;
@@ -10,37 +14,38 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
 .background {
-    background-image: url(images/sakura.jpeg); 
+    background-image: url(images/sakura.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; 
+    z-index: -1;
     height: 100vh;
     width: 100vw;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 
 .background::before {
-    content: ''; 
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7); 
-    z-index: 0; 
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 0;
 }
 
 
 .main-content {
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
     padding: 20px;
     margin: 0 auto;
-    max-width: 1200px; 
+    max-width: 1200px;
 }
