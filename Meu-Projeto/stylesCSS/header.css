@@ -3,6 +3,8 @@ header {
     justify-content: center;
     align-items: center;
     height: 50px;
+    overflow-y: hidden;
+    background-color: #ffffff00;
 }
 
 .logo img {
@@ -17,10 +19,19 @@ header {
 .button-shop button {
     border: none;
     color: #FFF;
+    transition: back-ground-color 0.3s ease-in-out;
+    transition-duration: 10s;
     background-color: #cf1919;
     border-radius: 15px;
     height: 28px;
     width: 85px;
+}
+
+.button-shop button:hover {
+    transition: back-ground-color 0.3s ease-in-out;
+    transition-duration: 10s;
+    background-color: #a11414;
+    cursor: pointer;
 }
 
 input {
@@ -40,6 +51,10 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#Account {
+    cursor: pointer;
 }
 
 .icons img {
