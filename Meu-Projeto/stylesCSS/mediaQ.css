@@ -1,0 +1,122 @@
+@media(max-width:1030px) {
+    .banner {
+        margin-left: 20px;
+    }
+
+}
+
+@media(max-width:1010px) {
+    .banner {
+        padding-top: 70px;
+        height: 700px;
+    }
+
+    input {
+        width: 408px;
+    }
+}
+
+@media(max-width:995px) {
+    #title {
+        font-size: 45px;
+    }
+
+    #text {
+        font-size: 20px;
+    }
+
+    .right-img img {
+        width: 374px;
+        height: 384px;
+    }
+
+}
+
+
+@media(max-width:900px) {
+
+    .right-img img {
+        width: 274px;
+        height: 284px;
+    }
+}
+
+@media(max-width:793px) {
+    
+    .banner {
+        text-align: center;
+    }
+
+    #title {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .button-shop-banner {
+        text-align: center;
+    }
+
+    .right-img img {
+        width: 374px;
+        height: 384px;
+    }
+
+}
+
+@media(max-width:660px) {
+
+    input {
+        display: none;
+    }
+
+    .button-shop {
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff00;
+    }
+
+    #Account {
+        display: none;
+    }
+
+    .icons p {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+}
+
+@media(max-width:524px) {
+    #title {
+        text-align: start;
+        font-size: 38px;
+    }
+
+    #text {
+        text-align: start;
+        font-size: 16px;
+    }
+
+    .button-shop-banner {
+        text-align: start;
+    }
+
+    .right-img img {
+        width: 330px;
+        height: 340px;
+    }
+
+}
