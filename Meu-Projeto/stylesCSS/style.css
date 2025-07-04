@@ -8,11 +8,11 @@
 
 html {
     overflow-x: hidden;
-    height: 100%; /* Permite que o HTML ocupe toda a altura do conteúdo */
+    height: 100%; 
 }
 
-/* Adicionado para um reset mais completo e para que padding/border não causem overflow */
 * {
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 
