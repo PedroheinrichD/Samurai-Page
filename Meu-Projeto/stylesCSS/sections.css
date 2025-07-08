@@ -114,7 +114,9 @@
 }
 
 .card1Up{
+    display: flex;
     background-color: wheat;
     width: 406px;
     height: 247px;
 }
+
