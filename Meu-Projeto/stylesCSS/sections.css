@@ -90,3 +90,31 @@
     font-size: 44px;
     color: #FFF;
 }
+
+
+
+/* Section About-Us */
+.About-us{
+    height: 900px;
+}
+
+.About-us #title{
+    text-align: end;
+}
+
+.all-cards{
+    display: flex;
+    background-color: rebeccapurple;
+    height: 800px;
+}
+
+.cards-up{
+    display: flex;
+    justify-content: center;
+}
+
+.card1Up{
+    background-color: wheat;
+    width: 406px;
+    height: 247px;
+}
