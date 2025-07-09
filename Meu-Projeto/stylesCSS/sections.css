@@ -92,31 +92,73 @@
 }
 
 
-
 /* Section About-Us */
-.About-us{
-    height: 900px;
+.About-us {
+    padding: 20px; /* Adiciona um padding para o conteúdo não colar nas bordas da section */
 }
 
-.About-us #title{
+.About-us #title {
     text-align: end;
+    /* Ajuste de margem para posicionar melhor o título "About Us" */
+    margin-right: 20px; /* Ajuste conforme necessário para o alinhamento da ref */
 }
 
-.all-cards{
+.all-cards {
     display: flex;
-    background-color: rebeccapurple;
-    height: 800px;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha em telas menores */
+    justify-content: center; /* Centraliza os grupos de cards */
+    align-items: flex-start; /* Alinha os cards ao topo verticalmente */
+    gap: 30px; /* Espaçamento entre os cards (melhor que margin para flexbox) */
+    padding: 20px; /* Padding para que os cards não colem nas bordas do .all-cards */
+}
+.card1Up img {
+    position: absolute;
+    right: 0px;
+    bottom: -15px; /* Ajuste para a imagem "sair" um pouco do card */
+    
+    height: 100%; /* Permite que a altura da imagem cubra a altura do card */
+    width: auto; /* Deixa a largura se ajustar automaticamente para manter a proporção */
+    
+    object-fit: contain; /* ou cover, dependendo do que você quer */
+    
+    z-index: 0;
 }
 
-.cards-up{
+.card1Up {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 460px;
+    height: 260px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
 }
 
-.card1Up{
+.texts-cards {
     display: flex;
-    background-color: wheat;
-    width: 406px;
-    height: 247px;
+    flex-direction: column;
+    width: 50%; 
+    z-index: 1; 
 }
 
+.texts-cards h1 {
+    margin: 0 0 10px 0; 
+    font-size: 1.2em; 
+    color: #333; 
+}
+
+ul {
+    margin: 0px;
+    padding: 0; 
+}
+
+ul li {
+    list-style: none; 
+    margin-bottom: 5px; 
+    font-size: 0.9em; 
+    color: #555; 
+}
