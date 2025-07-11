@@ -94,32 +94,31 @@
 
 /* Section About-Us */
 .About-us {
-    padding: 20px; /* Adiciona um padding para o conteúdo não colar nas bordas da section */
+    padding: 20px; 
 }
 
 .About-us #title {
     text-align: end;
-    /* Ajuste de margem para posicionar melhor o título "About Us" */
-    margin-right: 20px; /* Ajuste conforme necessário para o alinhamento da ref */
+    margin-right: 20px; 
 }
 
 .all-cards {
     display: flex;
-    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha em telas menores */
-    justify-content: center; /* Centraliza os grupos de cards */
-    align-items: flex-start; /* Alinha os cards ao topo verticalmente */
-    gap: 30px; /* Espaçamento entre os cards (melhor que margin para flexbox) */
-    padding: 20px; /* Padding para que os cards não colem nas bordas do .all-cards */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 30px; 
+    padding: 20px; 
 }
 .card1Up img {
     position: absolute;
     right: 0px;
-    bottom: -15px; /* Ajuste para a imagem "sair" um pouco do card */
+    bottom: -15px; 
     
-    height: 100%; /* Permite que a altura da imagem cubra a altura do card */
-    width: auto; /* Deixa a largura se ajustar automaticamente para manter a proporção */
+    height: 100%; 
+    width: auto; 
     
-    object-fit: contain; /* ou cover, dependendo do que você quer */
+    object-fit: contain; 
     
     z-index: 0;
 }
