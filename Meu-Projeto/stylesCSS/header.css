@@ -5,7 +5,7 @@ header {
     align-items: center;
     height: 50px;
     overflow-y: hidden;
-    background-color: #ffffff00;
+    background-color: #ffffff; 
 }
 
 .logo img {
@@ -80,4 +80,3 @@ input {
     height: 2px;
     width: 30px;
 }
-
