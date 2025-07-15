@@ -41,6 +41,13 @@
     }
 }
 
+@media (max-width: 800px) {
+
+    .card2down {
+        width: 320px;
+    }
+}
+
 @media(max-width:793px) {
 
     #text-slide {
@@ -70,6 +77,7 @@
         width: 374px;
         height: 384px;
     }
+
 
 }
 
@@ -150,6 +158,35 @@
         color: #FFF;
     }
 }
+
+@media (max-width:460px) {
+
+
+    .all-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: auto;
+        padding: 0px;
+        gap: 20px;
+    }
+
+    .card1Up,
+    .card2Up,
+    .card3Up,
+    .card2down {
+        width: 420px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .texts-cards {
+        width: 40%;
+    }
+}
+
 
 @media(max-width:370px) {
 
