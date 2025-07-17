@@ -210,3 +210,27 @@ ul li {
     width: 474px;
     height: 484px;
 }
+
+/* Form */
+
+form input {
+    border-top: 1px solid #e6e6e694;
+    box-shadow: inset 0px 0px 3px 0px #3b3b3b;
+}
+
+#yourname,
+#yourmail {
+    height: 38px;
+    width: 500px;
+}
+
+#message {
+    height: 108px;
+    width: 500px;
+}
+
+.send-msg button{
+    margin-top: 5px;
+    width: 100%;
+    height: 47px;
+}
