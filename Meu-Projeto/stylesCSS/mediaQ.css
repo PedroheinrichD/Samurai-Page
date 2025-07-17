@@ -79,6 +79,7 @@
     }
 
 
+
 }
 
 @media(max-width:660px) {
@@ -122,6 +123,23 @@
         display: flex;
     }
 
+
+    form input {
+        display: block;
+        border-top: 1px solid #e6e6e694;
+        box-shadow: inset 0px 0px 3px 0px #3b3b3b;
+    }
+
+}
+
+
+@media (max-width:580px) {
+
+    #yourname,
+    #yourmail,
+    #message {
+        width: 100%;
+    }
 }
 
 @media(max-width:524px) {
@@ -149,6 +167,10 @@
         width: 330px;
         height: 340px;
     }
+
+    
+
+
 }
 
 @media(max-width:454px) {
@@ -177,6 +199,10 @@
     .card3Up,
     .card2down {
         width: 420px;
+    }
+
+    .send-msg{
+        margin-top: 50px;
     }
 
 }
